@@ -1,6 +1,6 @@
 from logic import numbers
 
 
-n = input('Number to / : ')
+n = int(input('Number to / : '))
 
-print(n)
+numbers(n)
