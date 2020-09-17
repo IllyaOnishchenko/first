@@ -8,4 +8,4 @@ def numbers(n):
 			print(value)
 	for value2 in nums:
 		if value2 % n != 0:
-			print('Число не делиться')
+			print(value2, '- Число не делиться')
