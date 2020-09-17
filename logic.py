@@ -6,5 +6,6 @@ def numbers(n):
 	for value in nums:
 		if value % n == 0:
 			print(value)
-		else:
-			print('Ne delitsa, vvedite drygoe chislo')
+	for value2 in nums:
+		if value2 % n != 0:
+			print('Число не делиться')
